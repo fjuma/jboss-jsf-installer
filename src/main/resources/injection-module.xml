@@ -38,6 +38,8 @@
         <module name="org.jboss.as.web"/>
         <module name="javax.servlet.api"/>
         <module name="org.jboss.logging"/>
+
+        <!-- added this for MyFacesAnnotationProvider -->
         <module name="javax.faces.api" slot="${jsf-impl-name}-${jsf-version}"/>
     </dependencies>
 </module>
